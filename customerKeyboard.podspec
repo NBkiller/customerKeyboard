@@ -12,4 +12,5 @@ s.source_files = "customerKeyboard/customerKeyboard/customer/*.{h,m}"
 s.resources    = "customerKeyboard/customerKeyboard/customer/images/*.png"
 s.framework  = "UIKit"
 s.requires_arc = true
+s.dependency  = 'IQKeyboardManager'
 end
